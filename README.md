@@ -32,6 +32,8 @@ With a lyapunov exponent of 0.088129 and a Lyapunov time of 11.347 the system is
 
 ## Taken's Theorem
 
+Taken's theorem used with only the x ts.
+
 This is black magic for sure!
 
 ![Reconstruction of the rossler attractor based on taken's theorem](https://github.com/gcontesini/DS_Rossler_Attractor/blob/master/rossler_takens_theorem.png)
