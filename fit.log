@@ -1882,6 +1882,7 @@ correlation matrix of the fit parameters:
                 a      b      
 a               1.000 
 b              -0.866  1.000 
+<<<<<<< HEAD
 
 
 *******************************************************************************
@@ -2030,3 +2031,5 @@ correlation matrix of the fit parameters:
                 a      b      
 a               1.000 
 b              -0.866  1.000 
+=======
+>>>>>>> 221e463040185b7d8582ef844075a889618ac73f
