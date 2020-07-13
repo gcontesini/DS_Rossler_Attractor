@@ -32,8 +32,17 @@ With a lyapunov exponent of 0.088129 and a Lyapunov time of 11.347 the system is
 
 ## Taken's Theorem
 
-Taken's theorem used with only the x ts.
+Takens theorem states that the some dynamical structures can be recovered by analyzing from the time series of one or more components with different  or smooth manifold ( A MAP ). In sort differential time lags, canonical transformations or group operation that preserve the system symmetry. [Sugihara Lab - Detecting Causality in Complex Ecosystems  (Science DOI: 10.1126/science.1227079  (2012))](https://deepeco.ucsd.edu/publications/#page-content)
+
+![Reconstruction of the rossler attractor based on taken's theorem for the x TS](https://github.com/gcontesini/DS_Rossler_Attractor/blob/master/rossler_x_takens_theorem.png)
+
+
+
+![Reconstruction of the rossler attractor based on taken's theorem for the y TS](https://github.com/gcontesini/DS_Rossler_Attractor/blob/master/rossler_y_takens_theorem.png)
+
+
+
+![Reconstruction of the rossler attractor based on taken's theorem for the z TS](https://github.com/gcontesini/DS_Rossler_Attractor/blob/master/rossler_z_takens_theorem.png)
+
 
 This is black magic for sure!
-
-![Reconstruction of the rossler attractor based on taken's theorem](https://github.com/gcontesini/DS_Rossler_Attractor/blob/master/rossler_takens_theorem.png)
