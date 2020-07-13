@@ -74,12 +74,25 @@ reset
 
 reset
 
-takens_data_pnt = "takens_data_pnt.dat"
+takens_x_data_pnt = "takens_x_data_pnt.dat"
 set grid
 set view 64, 352, 0.902, 1.43333
-splot takens_data_pnt u 2:3:4 w l
-set output "rossler_takens_theorem.png"
+splot takens_x_data_pnt u 2:3:4 w l title "x ts"
+set output "rossler_x_takens_theorem.png"
+replot 
 
+takens_y_data_pnt = "takens_y_data_pnt.dat"
+set grid
+set view 55, 34, 0.902, 1.43333
+splot takens_y_data_pnt u 2:3:4 w l title "y ts"
+set output "rossler_y_takens_theorem.png"
+replot 
+
+takens_z_data_pnt = "takens_z_data_pnt.dat"
+set grid
+set view 59, 76, 0.902, 1.43333
+splot takens_z_data_pnt u 2:3:4 w l title "z ts"
+set output "rossler_z_takens_theorem.png"
 replot
 
 # CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC MULTIPLOT
